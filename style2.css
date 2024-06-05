@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+body{
+    background-image: url(https://previews.123rf.com/images/krulua/krulua1709/krulua170900227/86726909-science-template-wallpaper-or-banner-with-a-dna-molecules-vector-illustration.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+    margin-left: 4em;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.card{
+    height: 250px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0);
+    margin-left: 2%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    margin-top: 5%;
+    border: none;
+}
+
+.card:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-shadow: 60px 60px 50px black;
+    transform: translate(2%);
+}
+
+.card:hover .card-title{
+color: rgb(255, 255, 255);
+}
+
+.btn{
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.336);
+}
+.card-text{
+    color: aliceblue;
+}
+
+
+
+ /* -----------------------card1--------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.card1{
+    height: 220px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: rgba(10, 255, 255, 0);
+    margin-left: 25%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.card1:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-shadow: 60px 60px 50px black;
+    transform: translate(2%);
+}
+
+.card1:hover .card1-title{
+color: rgb(248, 248, 248);
+}
+
+.btn-primary1{
+    margin-left: 4%;
+    color: aliceblue;
+    border: 1px solid rgb(48, 110, 245);
+}
+
+.btn-primary1:hover{
+color: aliceblue;
+background: rgb(29, 78, 240);
+}
+.card1-text{
+    color: aliceblue;
+}
+
+.card1-title{
+    margin-left: 5%;
+}
+
+.card1-text{
+    margin-left: 4%;
+}
+
+
+/* ---------------------------------------card2-------------------------------------------------------------------------------------------------------- */
+
+
+
+.card2{
+    height: 210px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0);
+    margin-left: 48%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.card2:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-shadow: 60px 60px 50px black;
+    transform: translate(2%);
+}
+
+.card2:hover .card2-title{
+color: rgb(248, 248, 248);
+}
+
+.btn-primary2{
+    margin-left: 4%;
+    color: aliceblue;
+    border: 1px solid rgb(48, 110, 245);
+}
+
+.btn-primary2:hover{
+color: aliceblue;
+background: rgb(29, 78, 240);
+}
+.card2-text{
+    color: aliceblue;
+}
+
+.card2-title{
+    margin-left: 5%;
+}
+
+.card2-text{
+    margin-left: 4%;
+}
+
+
+/* ----------------------------------------card3---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+.card3{
+    height: 210px;
+    transition: 2s;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0);
+    margin-left: 72%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+
+
+
+.card3:hover{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.39);
+    box-shadow: 60px 60px 50px black;
+    transform: translate(2%);
+    
+}
+
+.card3:hover .card3-title{
+color: rgb(248, 248, 248);
+}
+
+.btn-primary3{
+    margin-left: 4%;
+    color: aliceblue;
+    border: 1px solid rgb(48, 110, 245);
+}
+
+.btn-primary3:hover{
+color: aliceblue;
+background: rgb(29, 78, 240);
+}
+.card3-text{
+    color: aliceblue;
+}
+
+.card3-title{
+    margin-left: 5%;
+}
+
+.card3-text{
+    margin-left: 4%;
+}
+
+.ftt img{
+    width: 100px;
+    position: absolute;
+    margin-top: -2%;
+    animation: ld 7s linear infinite alternate-reverse;
+    
+}
+
+@keyframes ld {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(2000%);
+        opacity: 1;
+        
+    }
+}
+@keyframes bs {
+    0%{
+        transform: translateX(-100%); 
+    }
+    100%{
+        transform: translateX(200%);
+        
+        
+    }
+}

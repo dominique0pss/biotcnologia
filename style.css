@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: inicio 2s linear;
+}
+
+body{
+    background-image: url(https://cursoseprofissoes.com.br/wp-content/uploads/2024/02/biotecnologia-banner-foto-1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+@keyframes inicio {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-around; 
+}
+h1 a{
+   text-decoration: none;
+   color: rgb(33, 103, 233);
+}
+h1{
+    display: flex;
+    margin-top: 5em;
+    margin-left: 18em;
+    color: rgb(33, 103, 233);
+   
+
+}
+
+h1::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgba(18, 78, 243, 0.384);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+    opacity: 0;
+}
+
+h1:hover::after{
+    width: 14%;
+    margin-left: 35em;
+    opacity: 1;
+}
+
+
+.lg img{
+    width: 100px;
+    
+}
+
+
+
+
+h3 a{
+    text-decoration: none;
+    color: rgb(33, 103, 233);
+ }
+
+ h3{
+     display: flex;
+     margin-top: 2%;
+     margin-left: 65%;
+     color: rgb(33, 103, 233);
+    }
+ 
+ h3::after{
+     content: "";
+     width: 0%;
+     height: 2px;
+     background-color: rgba(18, 78, 243, 0.384);
+     position: absolute;
+     bottom: 49%;
+     left: 0;
+     transition: 2s;
+     opacity: 0;
+    }
+ 
+ h3:hover::after{
+     width: 5%;
+     margin-left: 67%;
+     opacity: 1;
+ }
